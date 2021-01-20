@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* --primary: #93C5FD; */
+  /* --black: #333333; */
+  white: white;
+  --width-break: 600px;
+}
+
+nav {
+  /* background-color:var(--primary); */
+  text-align: center;
+  padding: 1rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+body {
+  background-image: url(/image/shakespeare.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin: 0;
+  font-family: "Syne Mono", monospace;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 20vh;
+  font-size: large;
+  display: block;
+  margin-top: 2rem;
+  font-family: inherit;
+  background-color: transparent;
+  color: white;
+}
+
+#btn-translate {
+  font-family: "Syne Mono", monospace;
+  color: white;
+}
+
+#output {
+  box-sizing: border-box;
+  border: 5px solid #eae7e7;
+  min-height: 10vh;
+  max-height: 20vh;
+  width: 100%;
+  margin-top: 2rem;
+  overflow: scroll;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  /* background-color: var(--primary); */
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
+
+button {
+  background-color: transparent;
+  border: 0.5rem solid;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Syne Mono", monospace;
+  font-size: large;
+  border-radius: 1rem;
+}
