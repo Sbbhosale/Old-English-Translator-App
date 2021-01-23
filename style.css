@@ -20,7 +20,7 @@ nav {
 }
 
 body {
-  background-image: url(/image/shakespeare.jpg);
+  background-image: url(/image/jeremy-mura-TsXsc0m_vs8-unsplash.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   margin: 0;
@@ -38,19 +38,23 @@ main {
 
 textarea {
   box-sizing: border-box;
+  padding: 1rem;
   width: 100%;
   min-height: 20vh;
   font-size: large;
   display: block;
-  margin-top: 2rem;
+  border: 2rem;
   font-family: inherit;
-  background-color: transparent;
-  color: white;
+  background-color: whitesmoke;
+  color: brown;
+  border-radius: 1rem;
+  font-weight: bold;
 }
 
 #btn-translate {
   font-family: "Syne Mono", monospace;
   color: white;
+  font-weight: bold;
 }
 
 #output {
@@ -61,6 +65,11 @@ textarea {
   width: 100%;
   margin-top: 2rem;
   overflow: scroll;
+  background-color: whitesmoke;
+  color: brown;
+  font-weight: bold;
+  padding: 1rem;
+
 }
 
 footer {
@@ -82,9 +91,10 @@ footer p {
 button {
   background-color: transparent;
   border: 0.5rem solid;
-  margin: 1rem 0rem;
+  margin: 1rem 1rem;
   padding: 1rem 2rem;
   font-family: "Syne Mono", monospace;
   font-size: large;
   border-radius: 1rem;
+
 }
