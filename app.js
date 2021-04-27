@@ -1,8 +1,8 @@
-var btnTranslate = document.querySelector("#btn-translate");
-var txtInput = document.querySelector("#text-input");
-var outputDiv= document.querySelector("#output");
+let btnTranslate = document.querySelector("#btn-translate");
+let txtInput = document.querySelector("#text-input");
+let outputDiv= document.querySelector("#output");
 
-var serverURL="https://api.funtranslations.com/translate/oldenglish.json";
+const serverURL="https://api.funtranslations.com/translate/oldenglish.json";
 
 function getTranslationURL(text){
     return serverURL + "?" + "text=" +text
@@ -15,7 +15,7 @@ function errorHandler(error){
 }
 
 function clickHandler() {
-    var inputText = txtInput.value;
+    let inputText = txtInput.value;
 
 fetch(getTranslationURL(inputText))
 .then(response => response.json())
